@@ -1,13 +1,13 @@
-#Robotic Arm
-##Overview
+# Robotic Arm
+## Overview
 A robotic arm was designed using Turnigy Digital Servos. It is an articulated robotic arm that has 5DOF. An articulated robotic arm is an arm with rotary joints that uses actuators.
 
 The code is written in Node.js using the Johny Five Library and Arduino.
 
-##Demo
+## Demo
 [![DEMO](/Images/RoboticArm_Demo.gif?raw=true "Optional Title")](https://www.youtube.com/watch?v=Rbl2ym7H7-E “Robotic Arm")
 
-##Specifications
+## Specifications
 * Lengths
   * Base to Elbow(L1) : 25cm
   * Elbow to Wrist(L2) : 32cm
@@ -26,7 +26,7 @@ The code is written in Node.js using the Johny Five Library and Arduino.
 * Elbow Pitch: 114 &#176;
 * Wrist Pitch: 114 &#176;
 
-##Components Used
+## Components Used
 1. Arduino Mega
 2. Turnigy Servos
 3. Leap Motion Sensor
@@ -34,14 +34,24 @@ The code is written in Node.js using the Johny Five Library and Arduino.
 5. Gripper
 6. Metal Rods for bodywork
 
-##Usage
-1. For Leap Motion control, first upload and run the Firmata Code on the arduino board. Execute the LeapInverseKinematics.js file from terminal.
+## Intallations
+leapjs:
+```sh
+npm install leapjs
+```
+johnny-five (macOS only):
+```sh
+npm install -g node-gyp
+```
+[Installation steps for all operating system](https://github.com/rwaldron/johnny-five/wiki/Getting-Started)
+
+## Usage
+1. For Leap Motion control, first upload and run the Firmata Code on the arduino board. Execute the LeapInverseKinematics.js file from terminal. Please install leapjs and johnny-five library for NodeJS before executing.
 2. For shape drawing tasks, upload the Shapes_Sketch.ino and comment out the shape which is not needed.
 
-##Model
+## Model
 ![Model](/Images/RoboticArm.jpg?raw=true "Optional Title")
 
-##References
+## References
 1. [Johnny Five Introduction](http://johnny-five.io)
 2. [Inverse Kinematics](http://www.societyofrobots.com/robot_arm_tutorial.shtml)
-
