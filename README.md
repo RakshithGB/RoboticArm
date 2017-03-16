@@ -6,6 +6,7 @@ The code is written in Node.js using the Johny Five Library and Arduino.
 
 ## Demo
 ![DEMO](/Images/RoboticArm_Demo.gif?raw=true "Optional Title")
+
 [YouTube Link](https://www.youtube.com/watch?v=Rbl2ym7H7-E)
 
 ## Specifications
