@@ -5,7 +5,8 @@ A robotic arm was designed using Turnigy Digital Servos. It is an articulated ro
 The code is written in Node.js using the Johny Five Library and Arduino.
 
 ## Demo
-[![DEMO](/Images/RoboticArm_Demo.gif?raw=true "Optional Title")](https://www.youtube.com/watch?v=Rbl2ym7H7-E “Robotic Arm")
+![DEMO](/Images/RoboticArm_Demo.gif?raw=true "Optional Title")
+[YouTube Link](https://www.youtube.com/watch?v=Rbl2ym7H7-E)
 
 ## Specifications
 * Lengths
