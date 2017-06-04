@@ -46,7 +46,7 @@ johnny-five (macOS only):
 ```sh
 npm install -g node-gyp
 ```
-[Installation steps for all operating system](https://github.com/rwaldron/johnny-five/wiki/Getting-Started)
+[Installation steps for all operating systems](https://github.com/rwaldron/johnny-five/wiki/Getting-Started)
 
 ## Usage
 1. For Leap Motion control, first upload and run the Firmata Code on the arduino board. Execute the LeapInverseKinematics.js file from terminal. Please install leapjs and johnny-five library for NodeJS before executing.
